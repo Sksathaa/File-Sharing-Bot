@@ -8,20 +8,26 @@ services:
     repo: https://github.com/Sksathaa/File-Sharing-Bot/tree/main.git      
     branch: main
     envVars:
-      - key: BOT_TOKEN 
-        sync: false
-      - key: API_ID 
-        sync: false
       - key: API_HASH
         sync: false
-      - key: ADMINS
+      - key: APP_ID
         sync: false
+      - key: TG_BOT_TOKEN
+        sync: false
+      - key: OWNER_ID
+        sync: false
+      - key: CHANNEL_ID
+        sync: false
+      - key: DATABASE_URL
+        sync: false 
       - key: DATABASE_NAME
         sync: false
-      - key: DATABASE_URI
+      - key: ADMINS
         sync: false 
-      - key: PICS
-        sync: false
-      - key: LOG_CHANNEL
-        sync: false    
+        key: START_MESSAGE
+        sync: false 
+        key: FORCE_SUB_MESSAGE
+        sync: false 
+        key: PROTECT_CONTENT
+        sync: false 
     autoDeploy: true￼Enter
